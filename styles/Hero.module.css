@@ -92,23 +92,6 @@
 
 
 
-.btn {
-    margin-top: 36%;
-    padding: 12px 12px;
-    color: white;
-    font-weight: 400;
-    font-size: 18px;
-    width: 200px;
-    background-color: rgba(237, 237, 241, 0.492)   ; 
-    border-radius: 4.8px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.btn:hover {
- 
-}
 
 .section {
     height: 100vh;
