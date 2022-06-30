@@ -8,8 +8,9 @@ const Hero = () => {
     <div className={heroStyles.display}>
               <div className={heroStyles.contentWrap}>
       <h1 className={heroStyles.title}>Web3 Security solutions </h1>
-      <div className={heroStyles.container}></div>
-     
+      <div className={heroStyles.imgContainer}>
+        <Image src="/mirrors.jpg" width={700} height={500} alt="avatar" />
+      </div>     
       </div>
     </div>
     

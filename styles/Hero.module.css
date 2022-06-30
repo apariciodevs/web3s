@@ -6,27 +6,32 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Sora', sans-serif;
-    height: 80vh;
+    height: 100vh;
     margin: auto;
     width: 80vw;
     margin-top: 40px;
     margin-bottom: 400px;
 
 
-
-
 }
 
-.container {
-    height: 70vh;
-    width: 70vw;
-    background-image: url(../public/mirrors.jpg);
-    border-radius: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+
+.imgContainer {
     box-shadow: rgb(86, 94, 239) 2px 20px 80px ;
-    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.2s ease;
+    margin-top: 20px;
 }
+
+@media screen and (max-width:992px) {
+    .display{
+        margin-bottom: 20%;
+
+    }
+}
+
 
 @media screen and (max-width:992px) {
         .container{
