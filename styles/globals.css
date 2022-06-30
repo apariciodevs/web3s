@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+  background-color: #040811;
+  font-family: "Sora", sans-serif;
 
+  --text--color: rgba(255, 255, 255, 0.851);
+  --dark--blue: #040811;
+  --blue--shadow: rgba(86, 94, 239, 0.308) ;
+
+
+
+  ;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -14,3 +24,5 @@ a {
 * {
   box-sizing: border-box;
 }
+
+

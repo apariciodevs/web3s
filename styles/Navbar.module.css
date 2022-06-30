@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Sora", sans-serif;
+    color: var(--text--color);
+    margin: auto;
+    width: 80%;
+}
+
+.navMid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 20%;
+}
+
+.navRight {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.navItem {
+    padding: 8px;
+}
+
+.navBtn {
+    padding: 10px 16px;
+    margin-left: 4px;
+    border-radius: 4.8px;
+    border: none;
+    color: var(--text--color);
+    transition: 0.4s ease-in;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.navBtnL {
+    padding: 10px 16px;
+    margin-left: 4px;
+    background-color: transparent;
+    border-radius: 4.8px;
+    border: none;
+    color: var(--text--color);
+    transition: 0.4s ease-in;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.navBtn:hover {
+    background-color: rgba(86, 94, 239, 0.664) ;
+
+    box-shadow: rgb(86, 94, 239) 2px 20px 80px ;
+    color: var(--text--color);
+    
+}
+
+.navBtnL:hover {
+    background-color: rgba(188, 86, 239, 0.687) ;
+    box-shadow: rgb(188, 86, 239) 2px 20px 80px ;
+    color: var(--text--color);
+}

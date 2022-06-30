@@ -1,0 +1,17 @@
+
+
+.footer {
+    height: 8vh;
+    background-color: #040811;
+    width: 100vw;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.text {
+    font-size: 14px;
+}
