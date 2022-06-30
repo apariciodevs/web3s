@@ -45,7 +45,7 @@ const Grid = () => {
       <div className={gridStyles.textWrap}>
         <p className={gridStyles.text}>
           Keep your digital assets safe in our vault. We provide unlimited
-          storage assuring high security standards that exchanges can't give
+          storage assuring high security standards that exchanges cannot give
           you. Sign up and Enjoy member perks such as up to 5% interest rate
           return on your NFTs and private events.{" "}
         </p>
